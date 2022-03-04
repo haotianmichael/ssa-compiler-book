@@ -1,26 +1,35 @@
 # ssa-compiler-book
 
-Static single assignment, known as `SSA`, was once developed at IBM Research. Because of its fast and powerful abilities on optimizations, most of the current commercial and open-source compilers, including `LLVM`, `GCC`, `HotSpot`, `V8 engine`, use SSA as a key IR for **program analysis** and other usages. On the other hand, research about **Intermediate Representation** such as MLIR became more mature.    
+### 0. Introduction
 
-This book aims to introduce `SSA` and explore its applications in compiler field. 
+Static single assignment, known as `SSA`, was once developed at IBM Research. Because of its fast and powerful abilities on optimizations, most of the current commercial and open-source compilers, including `LLVM`, `GCC`, `HotSpot`, `V8 engine`, use `SSA` as a key IR for **program analysis** and other usages. On the other hand, research about **Intermediate Representation** such as MLIR became more mature.    
 
-### Prerequisites
+This book aims to introduce `SSA` and explore related techniques in compiler field such program analysis and MLIR.
 
-You have to know about **compilers**--(implementations and usages), **static program analysis**--(dataflow and fixed point) and **functional languages**(Ocaml is good).  
+### 1. Prerequisites
 
-#### Compiler
+As prerequisites, you need to learn the following knowledge:
 
-
-
-#### static program analysis
-
-
-
-#### functional language
+* [compilers](doc/compilers.md) ,(Implementations about `IR` and `CodeGen` and usages)
+* [static program analysis](doc/analysis.md), (Dataflow and fixed point) 
+* [functional languages](doc/funclang.md), (Ocaml is good)
 
 
 
-### TextBook
+### 2. TextBook
+
+We use the well-known [ssa-book](https://pfalcon.github.io/ssabook/latest/book-full.pdf) as textbook to learn `SSA` . Here is my learning notes in Chinese.
+
+....
 
 
 
+### 3. Advanced
+
+#### 3.1 Papers
+
+TODO: LLVM IR, MLIR, Relay...
+
+#### 3.2. Projects
+
+TODO: Ocaml, Cpp...
