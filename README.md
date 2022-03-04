@@ -8,6 +8,18 @@ This book aims to introduce `SSA` and explore its applications in compiler field
 
 You have to know about **compilers**--(implementations and usages), **static program analysis**--(dataflow and fixed point) and **functional languages**(Ocaml is good).  
 
+#### Compiler
+
+
+
+#### static program analysis
+
+
+
+#### functional language
+
+
+
 ### TextBook
 
 
