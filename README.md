@@ -8,11 +8,11 @@ This book aims to introduce `SSA` and explore related techniques in compiler fie
 
 ### 1. Prerequisites
 
-As prerequisites, you need to learn the following knowledge:
+As prerequisites, you need to know:
 
-* [compilers](doc/compilers.md) ,(Implementations about `IR` and `CodeGen` and usages)
-* [static program analysis](doc/analysis.md), (Dataflow and fixed point) 
 * [functional languages](doc/funclang.md), (Ocaml is good)
+* [static program analysis](doc/analysis.md), (Dataflow and fixed point) 
+* [compilers](doc/compiler.md) ,(Implementations and usages of `IR` and `CodeGen`)
 
 
 

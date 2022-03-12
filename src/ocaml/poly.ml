@@ -1,9 +1,12 @@
-type 'a list = Nil | Cons of 'a  * 'a list
+(*greatest common divisor*)
+let rec gcd a b = 
+    let r = a mod b in
+    if r = 0 then
+        b
+    else 
+        gcd b r
 
-let list1: string list = Nil;;
-let list1 = Cons("Hello Ocaml", list1) in
 
-let list2  : int list = Nil;;
-let list2 = Cons(0, list2);
+
   
 
